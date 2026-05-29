@@ -7,8 +7,20 @@ def update_dictionary(dct, key, value):
     """
     return
 
+#Answer：
+    if key in dct:
+        print(dct[key])
+
+    dct[key] = value
+
+    return dct
+
 
 # Task 2
 # Invoke the function "update_dictionary" using the following scenarios:
 # - {}, "name", "Alice"
 # - {"age": 25}, "age", 26
+
+#Answer：
+print(update_dictionary({}, "name", "Alice"))
+print(update_dictionary({"age": 25}, "age", 26))
