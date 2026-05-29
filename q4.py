@@ -5,10 +5,8 @@ def string_reverse(s):
     - s must be a string.
     - Return the reversed string.
     """
-    return
 
 #Answer：
-def string_reverse(s):
     return s[::-1]
 
 # Task 2
