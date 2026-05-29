@@ -5,10 +5,8 @@ def check_divisibility(num, divisor):
     - Both num and divisor must be numeric.
     - Return True if num is divisible by divisor, False otherwise.
     """
-    return
 
 #Answer：
-def check_divisibility(num, divisor):
     return num % divisor == 0
 
 # Task 2
